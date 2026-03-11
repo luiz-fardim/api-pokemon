@@ -27,11 +27,11 @@ api-pokemon
 └── README.md
 
 - Como rodar o projeto:
-  Clone o repositório:
-  git clone https://github.com/luiz-fardim/api-pokemon.git
-  Entre na pasta:
-  cd api-pokemon
-  Depois é só abrir o arquivo:
+  Clone o repositório,
+  git clone https://github.com/luiz-fardim/api-pokemon.git,
+  entre na pasta,
+  cd api-pokemon,
+  depois é só abrir o arquivo
   index.html
   no navegador.
 
