@@ -63,6 +63,8 @@ cd api-pokemon
 * Mostrar mais informações (habilidades, stats)
 * Melhorar o design da interface
 
+![Preview do projeto](preview.png)
+
 ## 👨‍💻 Autor
 
 Luiz Fardim
