@@ -1,12 +1,17 @@
 const inputPokemon = document.querySelector("#pokemon")
 const resultado = document.querySelector("#resultado")
+const btn = document.querySelector("#btn")
+
 inputPokemon.addEventListener("keydown", (e) => {
-    if (e.key === "Enter"){
+    if (e.key === "Enter") {
         buscarPokemon()
     }
 }
 )
-const buscarPokemon = async () => {
+
+btn.addEventListener("click", buscarPokemon)
+
+async function buscarPokemon() {
     const nome = inputPokemon.value
 
     try {
