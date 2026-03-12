@@ -1,45 +1,68 @@
-- PokeAPI:
-Aplicação web que consome a API pública de Pokémon e exibe informações dos Pokémon pesquisados.
-O projeto utiliza JavaScript assíncrono, requisições HTTP e manipulação do DOM para mostrar dados diretamente na interface.
+# 🐱‍👤 Pokémon API Project
 
-- Funcionalidades:
-  Buscar Pokémon pelo nome
-  Exibir peso
-  Exibir altura
-  Mostrar imagem oficial do Pokémon
-  Consumo de API em tempo real
+Aplicação que consome a **PokéAPI** para buscar informações de Pokémon e exibir os dados na tela.
 
-- Tecnologias utilizadas:
-  HTML5
-  CSS3
-  JavaScript
-  Fetch API
-  API pública de Pokémon → PokéAPI
+## 🚀 Tecnologias utilizadas
 
-- Estrutura do projeto:
-api-pokemon
-│
-├── index.html
-├── style.css
-├── script.js
-├── img
-│   └── icone-pikachu.pgn
-└── README.md
+* JavaScript
+* HTML
+* CSS
+* Fetch API
 
-- Como rodar o projeto:
-  Clone o repositório,
-  git clone https://github.com/luiz-fardim/api-pokemon.git,
-  entre na pasta,
-  cd api-pokemon,
-  depois é só abrir o arquivo
-  index.html
-  no navegador.
+## 🔎 Funcionalidades
 
-- Este projeto foi criado para praticar:
-  Requisições HTTP com fetch
-  async / await
-  Manipulação do DOM
-  Tratamento de erros com try / catch
-  
-Autor:
-Projeto desenvolvido por Luiz Fardim.
+* Buscar Pokémon pelo nome
+* Consumir dados de uma API externa
+* Exibir informações do Pokémon na tela
+* Mostrar imagem do Pokémon
+* Tratamento básico de erros
+
+## 🌐 API utilizada
+
+Este projeto utiliza a API pública **PokéAPI**.
+
+Exemplo de requisição:
+
+https://pokeapi.co/api/v2/pokemon/pikachu
+
+A API retorna informações como:
+
+* Nome do Pokémon
+* Peso
+* Altura
+* Imagem do Pokémon
+
+## 🧠 O que foi praticado nesse projeto
+
+* Consumo de APIs
+* Uso de `fetch()`
+* Promises e `async/await`
+* Manipulação do DOM
+* Tratamento de erros
+
+## ⚙️ Como rodar o projeto
+
+1. Clone o repositório
+
+```
+git clone https://github.com/seu-usuario/api-pokemon
+```
+
+2. Entre na pasta do projeto
+
+```
+cd api-pokemon
+```
+
+3. Abra o arquivo `index.html` no navegador.
+
+## 📌 Possíveis melhorias
+
+* Buscar Pokémon por número
+* Mostrar tipos do Pokémon
+* Mostrar mais informações (habilidades, stats)
+* Melhorar o design da interface
+
+## 👨‍💻 Autor
+
+Luiz Fardim
